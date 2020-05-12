@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="title">Search your 'mon by name or DEX Number!</p>
+    <div class="search">
+      <input id="search_field" name="name" type="text" />
+      <input id="search_button" type="submit" value="Search" />
+    </div>
+    <div id="auto_results">
+    </div>
+    <br />
+    <div class="results">
+      <img id="sprite" src="" />
+      <div class="text">
+        <p id="name"></p>
+        <p id="num"></p>
+        <p id="height"></p>
+        <p id="weight"></p>
+        <p id="type1"></p>
+      <div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
